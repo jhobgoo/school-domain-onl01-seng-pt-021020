@@ -11,7 +11,7 @@ class School
     if !roster.include?(grade, name)
       roster[grade, name] = []
     else 
-      roster[grade] << 
+      roster[grade, name] << name
     end
   end
   
