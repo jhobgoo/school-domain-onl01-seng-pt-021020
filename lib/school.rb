@@ -7,10 +7,6 @@ class School
     @roster = {}
   end
   
-  def roster
-    roster = {}
-  end
-  
   def add_student(name, grade)
     if !roster.include?(grade)
       roster[grade] = []
@@ -19,10 +15,10 @@ class School
     end
   end
   
-  def grade
-    roster.each do |grade|
-      roster[grade]
-    end
-  end
+# def grade
+#    roster.each do |grade|
+#      roster[grade]
+#   end
+#  end
   
 end
