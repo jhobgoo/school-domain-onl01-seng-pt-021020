@@ -24,7 +24,7 @@ class School
    
   def sort
     roster.sort do |name, grade|
-      roster
+      roster[name, grade]
     end
   end
   
