@@ -17,7 +17,7 @@ class School
   end
   
   def grade(grade)
-    roster.collect do |name, grade|
+    roster.each do |name, grade|
     end
   end
    
