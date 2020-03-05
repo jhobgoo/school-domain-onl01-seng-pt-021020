@@ -18,7 +18,7 @@ class School
   
   def grade(grade)
     roster.collect do |name, grade|
-      name
+      grade
     end
   end
    
