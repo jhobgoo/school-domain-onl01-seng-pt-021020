@@ -22,9 +22,9 @@ class School
     end
   end
    
-  def sort(name)
+  def sort
     roster.sort do |name|
-      roster.sort(name)
+      roster.sort
     end
   end
   
