@@ -23,7 +23,7 @@ class School
   end
    
   def sort
-    roster.sort do |name, grade|
+    roster.sort do |name|
       roster[0] <=> roster[1]
     end
   end
