@@ -19,6 +19,7 @@ class School
   def grade(grade)
     roster.each do |grade|
       if !roster.include?(grade)
+        roster[grade] = []
         roster[grade] << name
       end
     end
