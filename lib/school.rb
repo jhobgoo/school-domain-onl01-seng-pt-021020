@@ -21,9 +21,9 @@ class School
     roster
   end
    
-  def sort
-    roster.sort(grade)
-    end
-  end
+#  def sort
+#    roster.sort(grade)
+#    end
+#  end
   
 end
