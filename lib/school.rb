@@ -19,6 +19,7 @@ class School
   def grade(grade)
     roster.each do |grade|
       puts "#{name}"
+    end
   end
    
 #  def sort
