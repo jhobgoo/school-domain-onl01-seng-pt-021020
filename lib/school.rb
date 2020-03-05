@@ -1,5 +1,3 @@
-require 'pry'
-
 class School
 
   attr_accessor :name, :grade, :roster
@@ -27,7 +25,6 @@ class School
   def sort
     roster.each do |name, grade|
       roster[name] = grade.sort
-    binding.pry
     end
   end
   
