@@ -22,9 +22,10 @@ class School
     end
   end
    
-#  def sort
-#    roster.sort(grade)
-#    end
-#  end
+  def sort(grade)
+    roster.sort do |name, grade|
+      name
+    end
+  end
   
 end
